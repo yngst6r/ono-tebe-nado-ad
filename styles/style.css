@@ -72,13 +72,16 @@ body {
 .header__logo {
   display: block;
   width: 148px;
+  height: 105px;
 }
 
 .header__logo-image {
   display: block;
+  height: 100%;
 }
 
 .header__address {
+  width: 240px;
   justify-self: end;
 }
 
@@ -97,6 +100,9 @@ body {
 
 .cover__title {
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   font-size: 100px;
   font-weight: 700;
   line-height: 1.15;
@@ -108,8 +114,7 @@ body {
   z-index: 2;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 78px;
+  justify-content: space-between;
 }
 
 .cover__description-text {
@@ -211,7 +216,7 @@ body {
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  margin: 181px 24px 0;
+  margin: 120px 24px 180px;
 }
 
 .about__logo {
@@ -220,7 +225,7 @@ body {
   height: 240px;
   align-items: center;
   justify-content: center;
-  margin-left: 47px;
+  margin: 35px auto 0;
   border-radius: 50%;
   background-color: #000;
 }
@@ -230,7 +235,7 @@ body {
 }
 
 .about__title {
-  margin-top: 101px;
+  margin-top: 136px;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
@@ -249,8 +254,8 @@ body {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: start;
-  padding: 180px 50px 82px;
+  align-items: center;
+  padding: 0 50px 82px;
 }
 
 .footer__menu {
